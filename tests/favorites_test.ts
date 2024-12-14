@@ -1,3 +1,12 @@
+/*Objective: To confirm that logged-in users can add an article to their favorites list.
+Steps:
+•	Log in to the Wiley Online Library account.
+•	Navigate to a specific article page.
+•	Click on the "Add to Favorites" button.
+•	Validate that the article appears in the user’s favorites list.
+•	Expected Outcome: The selected article is successfully added to the favorites list.
+*/
+
 import { test, expect } from '@playwright/test';
 
 test('Add to Favorites Test', async ({ page }) => {
