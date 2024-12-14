@@ -1,3 +1,13 @@
+/*
+Objective: To verify that the search bar on the Wiley Online Library homepage works correctly and displays relevant results for a valid keyword.
+Steps:
+• Open the browser and navigate to the Wiley Online Library homepage.
+• Enter a valid keyword (e.g., "machine learning") in the search bar.
+• Click the search button.
+• Validate that search results are displayed and relevant to the keyword entered.
+Expected Outcome: Relevant search results are displayed for the provided keyword.
+*/
+
 import { test, expect } from '@playwright/test';
 
 test('Search Functionality Test', async ({ page }) => {
