@@ -1,3 +1,12 @@
+/*Objective: To ensure that a registered user can log in successfully to their account.
+Steps:
+•	Open the browser and navigate to the login page.
+•	Enter valid credentials (username and password).
+•	Click the login button.
+•	Validate that the user is redirected to their homepage or dashboard after logging in.
+•	Expected Outcome: The user is logged in, and the dashboard is displayed.
+*/
+
 import { test, expect } from '@playwright/test';
 
 test('Login Functionality Test', async ({ page }) => {
